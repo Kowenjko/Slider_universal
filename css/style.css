@@ -1,0 +1,45 @@
+*,
+::before,
+::after {
+    box-sizing: border-box;
+}
+
+.wrapper {
+    width: 600px;
+    border: solid 3px black;
+    margin: 20px auto;
+    /* overflow: hidden; */
+}
+
+.slider-container {
+    width: 300px;
+    margin: 10px auto;
+    /* border: solid 3px black; */
+   
+}
+
+.slider-track {
+
+    display: flex;
+    /* transition: 1s; */
+    position: relative;
+    width: 100px;
+    height: 100px;
+    box-sizing: border-box;
+}
+
+
+.slider-item {
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    transition: 1s;
+    top: 0;
+    left: 0;
+
+}
+
+.slider-buttons {
+    text-align: center;
+}
